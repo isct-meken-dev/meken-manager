@@ -1,0 +1,15 @@
+[package]
+name = "meken-manager"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bimap = { version = "0.6.3", features = ["serde"] }
+chrono = { version = "0.4.45", features = ["serde"] }
+internment = "0.8.6"
+macro_rules_attribute = "0.2.3"
+paste = "1.0.15"
+serde = { version = "1.0.229", features = ["derive"] }
+slotmap = { version = "1.1.1", features = ["serde"] }
+thiserror = "2.0.20"
+tokio = { version = "1.53.1", features = ["full"] }
